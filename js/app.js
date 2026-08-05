@@ -157,5 +157,8 @@ const numeriPari = []
 numeriPari.push(10, 6, 14, 44);
 console.table(numeriPari); */
 
-
-
+/*3.Dato un array di temperature settimanali [], trova il valore massimo e trova il valore minino*/
+const temperature = [19, 21, 18, 23, 25, 22, 20];
+const tempMin = Math.min(...temperature);
+const tempMax = Math.max(...temperature);
+console.table("la temperatura minima è " + tempMin + " gradi " + "e la temperatura massima è " + tempMax + " gradi");

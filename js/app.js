@@ -3,10 +3,10 @@
 
 /*1.Stampa i numeri da 1 a 10 usando un ciclo for.*/
 
-/* for (let i = 1; i <= 10; i++)
+/*  for (let i = 1; i <= 10; i++)
     console.log(i);
-console.log("-----------1")
-/* */
+console.log("-----------1") */
+
 
 
 /* 2.Stampa i numeri da 1 a 10 usando un ciclo while.*/
@@ -60,13 +60,14 @@ console.log("-----------6")
 
 
 /* 7.Chiedi un numero N all'utente. Calcola la somma di tutti i numeri da 1 a N e stampa il risultato */
-
-/* const N = Number(prompt("Inserisci un numero: "))
-let somma = 0
-for (let i = 1; i < N + 1; i++)
+/* 
+const numeri = Number(prompt("Inserisci un numero: "));
+let somma = 0;
+for (let i = 1; i <= numeri; i++) {
     somma = somma + i;
+}
+console.log(somma);
 
-console.log(somma)
 console.log("-----------7") */
 
 /* 8.Chiedi all'utente di inserire il prezzo di un prodotto. Continua a chiedere prezzi e sommarli al totale finchÃ© l'utente non inserisce "0" per terminare. Stampa il totale della spesa */
@@ -147,18 +148,47 @@ for (let i = 0; i < 6; i++) {
 }
 console.log(numeriDispari)
 
-console.log(-------------------1.1)*/
+console.log(-------------------1)*/
 
 /* 2.Dato l'array di numeri , crea un array con soli numeri pari*/
 
-/* const numeri = [10, 21, 6, 73, 9, 14, 44];
-console.table(numeri);
-const numeriPari = []
-numeriPari.push(10, 6, 14, 44);
-console.table(numeriPari); */
+/* const numeri = [10, 21, 6, 73, 9, 14, 44, 8];
+const numPari = []
+for (let i = 0; i < numeri.length; i++) {
+    const numero = numeri[i]
+    if (numero % 2 == 0) {
+        console.log(numeri[i])
+        numPari.push(numero)
+    }
+}
+console.log(numPari);
+ */
 
-/*3.Dato un array di temperature settimanali [], trova il valore massimo e trova il valore minino*/
-const temperature = [19, 21, 18, 23, 25, 22, 20];
+/*3.Dato un array di temperature settimanali [19, 21, 18, 23, 25, 22, 20], trova il valore massimo e trova il valore minino*/
+
+/* const temperature = [19, 21, 18, 23, 25, 22, 20];
 const tempMin = Math.min(...temperature);
 const tempMax = Math.max(...temperature);
-console.table("la temperatura minima è " + tempMin + " gradi " + "e la temperatura massima è " + tempMax + " gradi");
+console.table("la temperatura minima è " + tempMin + " gradi " + "e la temperatura massima è " + tempMax + " gradi"); */
+
+
+/*4.Dato l'array di voti [6, 8, 4, 9, 5, 7, 10], calcolare la media dei voti. */
+
+
+
+
+
+
+/*6.Chiedi all'utente una parola e un numero N. Stampa quella parola N volte.*/
+/* 
+const parola = prompt("inserisci una parola");
+const numero = Number(prompt("inserisci un numero"));
+console.log(numero, parola);
+
+for (let i = 1; i <= numero; i++) {
+    console.log(parola)
+} */
+
+
+
+

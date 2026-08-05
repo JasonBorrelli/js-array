@@ -1,3 +1,6 @@
+/*CICLI FOR E WHILE*/
+
+
 /*1.Stampa i numeri da 1 a 10 usando un ciclo for.*/
 
 /* for (let i = 1; i <= 10; i++)
@@ -108,7 +111,7 @@ console.log("------------9")
 
 /*10.Il computer pensa a un numero tra 1 e 100. L'utente indovina. Dopo ogni tentativo sbagliato, il computer dice "Troppo alto" o "Troppo basso" per aiutare l'utente.*/
 
-const numPc = Math.floor(Math.random() * 100) + 1;
+/* const numPc = Math.floor(Math.random() * 100) + 1;
 let numeroUtente = 0;
 
 console.log("Indovina il numero tra 1 e 100!");
@@ -125,7 +128,7 @@ while (numeroUtente !== numPc) {
 
 console.log("Bravo! Hai indovinato il numero: " + numPc);
 console.log("------------10")
-
+ */
 /* 
 const numPc = Math.floor(Math.random() * 100);
 let numUtente = prompt("indovina il numero che sto pensando");
@@ -143,3 +146,35 @@ else {
 
 if (numUtente === numPc)
     console.log("Bravo hai indovinato"); */
+
+
+/* ARRAY */
+
+
+/*1.
+Crea un array vuoto.
+Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.
+*/
+/* 
+const numeriDispari = []
+for (let i = 0; i < 6; i++) {
+    const numeroUtente = Number(prompt("inserisci un numero"));
+
+    if (numeroUtente % 2 != 0) {
+        numeriDispari.push(numeroUtente);
+    }
+}
+console.log(numeriDispari)
+
+console.log(-------------------1.1)*/
+
+/* 2.Dato l'array di numeri , crea un array con soli numeri pari*/
+
+const numeri = [10, 21, 6, 73, 9, 14, 44];
+console.table(numeri);
+const numeriPari = []
+numeriPari.push(10, 6, 14, 44);
+console.table(numeriPari);
+
+
+

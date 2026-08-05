@@ -125,36 +125,17 @@ while (numeroUtente !== numPc) {
         console.log("Troppo alto");
     }
 }
-
 console.log("Bravo! Hai indovinato il numero: " + numPc);
-console.log("------------10")
- */
-/* 
-const numPc = Math.floor(Math.random() * 100);
-let numUtente = prompt("indovina il numero che sto pensando");
+console.log("------------10") */
 
-
-while (numUtente !== numPc);            
-numUtente = Number(prompt("riporova con un altro numero")); 
-
-if (numUtente < numPc)
-    console.log("troppo basso");
-else {
-    numUtente > numPc
-    console.log("troppo alto")
-}
-
-if (numUtente === numPc)
-    console.log("Bravo hai indovinato"); */
 
 
 /* ARRAY */
 
 
-/*1.
-Crea un array vuoto.
-Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.
-*/
+/*1.Crea un array vuoto.Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.*/
+
+
 /* 
 const numeriDispari = []
 for (let i = 0; i < 6; i++) {
@@ -170,11 +151,11 @@ console.log(-------------------1.1)*/
 
 /* 2.Dato l'array di numeri , crea un array con soli numeri pari*/
 
-const numeri = [10, 21, 6, 73, 9, 14, 44];
+/* const numeri = [10, 21, 6, 73, 9, 14, 44];
 console.table(numeri);
 const numeriPari = []
 numeriPari.push(10, 6, 14, 44);
-console.table(numeriPari);
+console.table(numeriPari); */
 
 
 

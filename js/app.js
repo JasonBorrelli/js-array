@@ -44,19 +44,21 @@ for (let i = 0; i <= 50; i += 5)
     console.log(i)
 
 
-console.log("-------------5")
  */
 
 
 /*6.Chiedi all'utente una parola e un numero N. Stampa quella parola N volte.*/
+/* 
+const parola = prompt("inserisci una parola");
+const numero = Number(prompt("inserisci un numero"));
+console.log(numero, parola);
 
-/* const parola = String(prompt("Inserisci una parola: "));
-const numero = Number(prompt("Inserisci un numero: "));
-
-for (let i = 1; i < numero + 1; i++)
+for (let i = 1; i <= numero; i++) {
     console.log(parola)
-console.log("-----------6")
- */
+    
+} */
+
+
 
 
 /* 7.Chiedi un numero N all'utente. Calcola la somma di tutti i numeri da 1 a N e stampa il risultato */
@@ -67,8 +69,7 @@ for (let i = 1; i <= numeri; i++) {
     somma = somma + i;
 }
 console.log(somma);
-
-console.log("-----------7") */
+ */
 
 /* 8.Chiedi all'utente di inserire il prezzo di un prodotto. Continua a chiedere prezzi e sommarli al totale finchÃ© l'utente non inserisce "0" per terminare. Stampa il totale della spesa */
 
@@ -84,8 +85,6 @@ if (PREZZO === 0) {
     }
     console.log("Il totale della spesa è di € : " + somma + " ");
 }
-
-console.log("------------8");
  */
 
 /*L'utente ha 3 tentativi per indovinare la password. Stampa "Benvenuto" se riesce nei tentativi consentiti, altrimenti "Bloccato"*/
@@ -107,7 +106,6 @@ while (tentativi < 3) {
     }
 }
 
-console.log("------------9")
  */
 
 /*10.Il computer pensa a un numero tra 1 e 100. L'utente indovina. Dopo ogni tentativo sbagliato, il computer dice "Troppo alto" o "Troppo basso" per aiutare l'utente.*/
@@ -127,7 +125,7 @@ while (numeroUtente !== numPc) {
     }
 }
 console.log("Bravo! Hai indovinato il numero: " + numPc);
-console.log("------------10") */
+*/
 
 
 
@@ -147,8 +145,7 @@ for (let i = 0; i < 6; i++) {
     }
 }
 console.log(numeriDispari)
-
-console.log(-------------------1)*/
+*/
 
 /* 2.Dato l'array di numeri , crea un array con soli numeri pari*/
 
@@ -174,20 +171,12 @@ console.table("la temperatura minima è " + tempMin + " gradi " + "e la temperat
 
 /*4.Dato l'array di voti [6, 8, 4, 9, 5, 7, 10], calcolare la media dei voti. */
 
+const voti = [6, 8, 4, 9, 5, 7, 10];
+const media = voti.reduce((tot, voto) => tot + voto, 0) / voti.length
+
+console.log(media)
 
 
-
-
-
-/*6.Chiedi all'utente una parola e un numero N. Stampa quella parola N volte.*/
-/* 
-const parola = prompt("inserisci una parola");
-const numero = Number(prompt("inserisci un numero"));
-console.log(numero, parola);
-
-for (let i = 1; i <= numero; i++) {
-    console.log(parola)
-} */
 
 
 
